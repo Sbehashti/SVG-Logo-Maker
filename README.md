@@ -5,8 +5,9 @@
 ## Table of Contents
 1. [Acceptance Criteria]{#acceptance-criteria}
 2. [Work Completed]{#work-completed}
-3. [Video Walkthrough]{#video-walkthrough}
-4. [Credits]{#credits}
+3. [Work to Be Completed]{#work-to-be-completed}
+4. [Video Walkthrough]{#video-walkthrough}
+5. [Credits]{#credits}
 
 ## Acceptance Criteria
 - GIVEN a command-line application that accepts user input, WHEN I am prompted for text, THEN I can enter up to three characters;
@@ -21,12 +22,13 @@
 - When prompted for colors, the user can enter a color keyword (OR a hexadecimal number)
 - When prompted for text, the user can enter up to three characters
 - When prompted for the text color, the user can enter a color keyword (OR a hexadecimal number)
-- When all prompts are answered, the user is prompted to save the logo as an SVG file
-- When the Logo.svg is saved, the output text "Logo was generated successfully as logo.svg" is printed in the command line
-- When the user opens the logo.svg file in a browser, they are shown a 300x200 pixel image that matches the criteria they entered
+
+## Work to Be Completed
+- When all prompts are answered, the user is not prompted to save the logo as an SVG file, and multiple errors in code appear
+- Logo is not generated and user is not prompted to save or view file
 
 ## Video Walkthrough
-
+https://drive.google.com/file/d/1xuibOdivCri0xWkCOwoDSOOjZ7lIJNOJ/view
 
 ## Credits
 - Code by Sier Behashti (https://github.com/Sbehashti)

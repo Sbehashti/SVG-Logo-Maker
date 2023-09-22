@@ -3,15 +3,16 @@ const Square = require('../lib/Square')
 const Circle = require('../lib/Circle')
 
 function generateLogo(data) {
-    let shape = undefined
+    let shape = null;
     if (data.shapes === 'Triangle') {
         shape = new Triangle(data.shape_color, data.text, data.text_color)
-    } else if (data.shapes ==='Square') {
+    } else if (data.shapes === 'Square') {
         shape = new Square(data.shape_color, data.text, data.text_color)
     } else if (data.shapes === 'Circle') {
         shape = new Circle(data.shape_color, data.text, data.text_color)
-    };
+    }
     return shape.render();
-}
+};
 
-module.exports = generateLogo;
+module.exports ={
+    generateLogo: generateLogo};

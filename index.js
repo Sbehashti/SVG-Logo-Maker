@@ -33,7 +33,7 @@ const questions = [
     
 //Function to generate logo after all prompts
 function writeToFile(fileName, data) {
-    let content = generateLogo(data);
+    var content = generateLogo(data);
     fs.writeFile(fileName, content, function(err) {
         if (err) {
             console.log('Error! Logo not generated');
@@ -46,7 +46,7 @@ function writeToFile(fileName, data) {
 //Function to init app
 function init() {
     inquirer.prompt(questions).then(function(data){
-        let fileName = 'logo.svg';
+        var fileName = 'logo.svg';
         writeToFile(fileName, data)
     });
 }
